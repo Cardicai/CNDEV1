@@ -1,0 +1,14 @@
+:root[data-theme="black"] {
+  --bg: #02060f;
+  --surface: rgba(4,11,22,0.9);
+}
+:root[data-theme="galaxy"] {
+  --bg:
+    radial-gradient(1200px 800px at 20% -10%, rgba(22,181,255,.2), transparent 60%),
+    radial-gradient(1000px 700px at 80% 110%, rgba(241,196,15,.12), transparent 60%),
+    #02060f;
+  --surface: rgba(4,11,22,0.75);
+}
+.bg-background { background: var(--bg); }
+.bg-surface { background: var(--surface); }
+.text-foreground { color: rgba(255,255,255,.95); }
